@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import HelloWorld from '@/components/HelloWorld.vue';
+import Index from '@/components/Index.vue';
 import Login from '@/components/Login.vue';
 import Logout from '@/components/Logout.vue';
 import App from '@/components/App.vue';
@@ -16,6 +17,11 @@ let Auth = {
 const routes = [
     {
       path: '/',
+      component: Index,
+      meta: { isPublic: true }
+    },
+    {
+      path: '/hello',
       component: HelloWorld,
       meta: { isPublic: true }
     },

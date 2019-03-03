@@ -1,4 +1,5 @@
 # quiver-viewer
+[![Netlify Status](https://api.netlify.com/api/v1/badges/57889fea-eb49-4450-b43d-3f9756db852a/deploy-status)](https://app.netlify.com/sites/quiver-viewer/deploys)
 
 ## Project setup
 ```
