@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^16.15.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-runtime": "^6.26.0",
     "base-64": "^0.1.0",
     "cxlt-vue2-toastr": "^1.1.0",
